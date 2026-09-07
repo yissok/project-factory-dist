@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "app": "project-factory",
+  "global": "__sveltekit_1ynqi0s",
+  "start": "_app/immutable/entry/start.BJV3Vu3n.js",
+  "appEntry": "_app/immutable/entry/app.BCQqBnfO.js",
+  "styles": [],
+  "scripts": [],
+  "preloads": [
+    "https://yissok.github.io/project-factory-dist/_app/immutable/entry/start.BJV3Vu3n.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/BAhbg6Fg.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/CiNUS-Su.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/CsX3weFC.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/entry/app.BCQqBnfO.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/CTLTubdZ.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/DxJfrBzO.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/CIIOchT8.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/chunks/DaE_bk7A.js",
+    "https://yissok.github.io/project-factory-dist/_app/immutable/nodes/0.x-wHuJGM.js"
+  ]
+}
