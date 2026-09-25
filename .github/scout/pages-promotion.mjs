@@ -1,3 +1,4 @@
+import { scoutRepo } from './config.mjs';
 import { readFile } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -44,7 +45,7 @@ export async function promotePages({ repository, sha, manifest, api, dispatch, v
     await api(`repos/${repository}/git/refs`, { method: 'POST', body: { ref: 'refs/heads/scout-ready', sha } });
   }
   // Retry dispatch on reruns, even if updating scout-ready succeeded previously.
-  await dispatch(`repos/${repository.split('/')[0]}/scout/dispatches`, {
+  await dispatch(`repos/${scoutRepo}/dispatches`, {
     method: 'POST', body: { event_type: 'app_source_updated', client_payload: { app: manifest.app, release: manifest.assets, distribution_sha: sha } },
   });
   return 'notified Scout';

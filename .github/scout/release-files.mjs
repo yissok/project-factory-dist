@@ -1,3 +1,4 @@
+import { pagesOrigin } from './config.mjs';
 import { createHash } from 'node:crypto';
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -23,7 +24,7 @@ export async function verifyRelease(manifest, { fetcher = fetch, concurrency = 8
     throw new Error('Release verification concurrency must be an integer from 1 to 64.');
   }
   if (manifest.version !== 4) throw new Error('Expected a version 4 release manifest.');
-  const expected = `https://yissok.github.io/${manifest.app}-dist/releases/`;
+  const expected = `${pagesOrigin}/${manifest.app}-dist/releases/`;
   if (typeof manifest.assets !== 'string' || !manifest.assets.startsWith(expected)
       || !/^[a-f0-9]{40}-[0-9]+-[0-9]+$/.test(manifest.assets.slice(expected.length))) {
     throw new Error('Invalid immutable release URL.');
