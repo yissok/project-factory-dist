@@ -1,0 +1,23 @@
+{
+  "version": 4,
+  "assets": "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1",
+  "app": "project-factory",
+  "global": "__sveltekit_mqxv12",
+  "start": "_app/immutable/entry/start.1jCTye5y.js",
+  "appEntry": "_app/immutable/entry/app.BUn4Jj7v.js",
+  "styles": [],
+  "scripts": [],
+  "preloads": [
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/entry/start.1jCTye5y.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/OXkXKGJW.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/uZlROb9m.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/CkdWgbfX.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/BeMO0MNH.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/entry/app.BUn4Jj7v.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/IdiDQvbn.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/Ce5KAVyB.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/CIT8h7hl.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/chunks/C9g8_EAj.js",
+    "https://yissok.github.io/project-factory-dist/releases/a2f796da5bea66c298e60af040a240798718f791-40851279433-1/_app/immutable/nodes/0.DQvnjIQ1.js"
+  ]
+}
