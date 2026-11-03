@@ -1,23 +1,23 @@
 {
   "version": 4,
-  "assets": "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1",
+  "assets": "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1",
   "app": "project-factory",
-  "global": "__sveltekit_h2smka",
-  "start": "_app/immutable/entry/start.Bdft02oh.js",
-  "appEntry": "_app/immutable/entry/app.CSKsBUJq.js",
+  "global": "__sveltekit_a6ipy2",
+  "start": "_app/immutable/entry/start.yEZQ14CN.js",
+  "appEntry": "_app/immutable/entry/app.BJR7CVSP.js",
   "styles": [],
   "scripts": [],
   "preloads": [
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/entry/start.Bdft02oh.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/BWIRVVLJ.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/uZlROb9m.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/CkdWgbfX.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/BVb-vBvG.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/entry/app.CSKsBUJq.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/IdiDQvbn.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/Ce5KAVyB.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/CIT8h7hl.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/chunks/C9g8_EAj.js",
-    "https://yissok.github.io/project-factory-dist/releases/c46b898836d9403b3df738b50056507ad368fa97-41417250364-1/_app/immutable/nodes/0.DQvnjIQ1.js"
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/entry/start.yEZQ14CN.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/CM0anV29.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/uZlROb9m.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/CkdWgbfX.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/BxAijQC8.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/entry/app.BJR7CVSP.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/IdiDQvbn.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/Ce5KAVyB.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/CIT8h7hl.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/chunks/C9g8_EAj.js",
+    "https://yissok.github.io/project-factory-dist/releases/7a91595cf9371a3593a267fd34861819306fc702-41636169648-1/_app/immutable/nodes/0.DQvnjIQ1.js"
   ]
 }
