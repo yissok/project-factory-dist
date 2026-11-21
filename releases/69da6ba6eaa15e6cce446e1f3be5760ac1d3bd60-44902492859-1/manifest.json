@@ -1,0 +1,23 @@
+{
+  "version": 4,
+  "assets": "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1",
+  "app": "project-factory",
+  "global": "__sveltekit_1tnwggr",
+  "start": "_app/immutable/entry/start.B1oLg0qN.js",
+  "appEntry": "_app/immutable/entry/app.tCe_BoiA.js",
+  "styles": [],
+  "scripts": [],
+  "preloads": [
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/entry/start.B1oLg0qN.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/Dmd5yKLj.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/uZlROb9m.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/CkdWgbfX.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/ClBPVUm2.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/entry/app.tCe_BoiA.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/IdiDQvbn.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/Ce5KAVyB.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/CIT8h7hl.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/chunks/C9g8_EAj.js",
+    "https://yissok.github.io/project-factory-dist/releases/69da6ba6eaa15e6cce446e1f3be5760ac1d3bd60-44902492859-1/_app/immutable/nodes/0.DQvnjIQ1.js"
+  ]
+}
