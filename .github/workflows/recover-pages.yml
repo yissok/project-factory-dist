@@ -66,13 +66,26 @@ jobs:
               if (!job || !Number.isSafeInteger(job.id)) return null;
               const { data: { artifacts } } = await github.rest.actions.listWorkflowRunArtifacts({ ...repository, run_id });
               const archive = `github-pages-${run_id}-${attempt}`;
-              if (!artifacts.some((artifact) => !artifact.expired && artifact.size_in_bytes > 0 && artifact.name === archive)) return null;
+              const matches = artifacts.filter((artifact) => artifact.name === archive);
+              if (matches.length !== 1) return null;
+              const [artifact] = matches;
+              if (artifact.expired !== false || artifact.size_in_bytes <= 0 ||
+                  !Number.isSafeInteger(artifact.id) || artifact.id <= 0) return null;
               const log = execFileSync('gh', ['run', 'view', String(run_id), '--repo', `${repository.owner}/${repository.repo}`,
                 '--attempt', String(attempt), '--job', String(job.id), '--log-failed'],
                 { encoding: 'utf8', timeout: 30000, maxBuffer: 2 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] });
-              const deployLog = log.split('\n').filter((line) => line.includes('\tDeploy GitHub Pages\t')).join('\n');
-              if (deployLog.includes(`No artifacts named "${archive}"`)) return 'Pages could not find the uploaded artifact.';
-              if (/(?:HTTP(?: error)?|status code)\s*[:=]?\s*(?:429|502|503|504)\b/i.test(deployLog)) return 'GitHub Pages returned a temporary service error.';
+              const lines = log.split('\n');
+              const knownStep = lines.filter((line) => line.includes('\tDeploy GitHub Pages\t'));
+              const deployLog = [...knownStep, ...lines.filter((line) => line.includes('\tUNKNOWN STEP\t'))];
+              const knownDeployLog = knownStep.join('\n');
+              // A deployment can fail inside Pages even after it accepts the exact artifact.
+              // The job API identifies the failed step even when gh loses step labels.
+              const acceptance = 'GitHub Pages accepted verified artifact ' + artifact.id + '.';
+              const providerFailed = /Error: GitHub Pages reported that deployment failed\.\s*$/m;
+              if (deployLog.some((line) => line.trimEnd().endsWith(acceptance)) &&
+                  providerFailed.test(deployLog.join('\n'))) return 'Pages failed after accepting the verified artifact.';
+              if (knownDeployLog.includes(`No artifacts named "${archive}"`)) return 'Pages could not find the uploaded artifact.';
+              if (/(?:HTTP(?: error)?|status code)\s*[:=]?\s*(?:429|502|503|504)\b/i.test(knownDeployLog)) return 'GitHub Pages returned a temporary service error.';
               return null;
             }
 
