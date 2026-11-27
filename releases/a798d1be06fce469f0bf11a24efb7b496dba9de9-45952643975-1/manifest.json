@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "assets": "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1",
+  "app": "project-factory",
+  "global": "__sveltekit_10fdma",
+  "start": "_app/immutable/entry/start.Dx3OK72f.js",
+  "appEntry": "_app/immutable/entry/app.Cp9SPe70.js",
+  "styles": [],
+  "scripts": [],
+  "preloads": [
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/entry/start.Dx3OK72f.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/6syFAnpM.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/uZlROb9m.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/CkdWgbfX.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/DR_tjrzV.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/entry/app.Cp9SPe70.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/IdiDQvbn.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/Ce5KAVyB.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/CIT8h7hl.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/chunks/C9g8_EAj.js",
+    "https://yissok.github.io/project-factory-dist/releases/a798d1be06fce469f0bf11a24efb7b496dba9de9-45952643975-1/_app/immutable/nodes/0.DQvnjIQ1.js"
+  ],
+  "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+}
